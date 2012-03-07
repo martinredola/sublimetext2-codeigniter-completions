@@ -445,12 +445,48 @@
     { "trigger": "encode_php_tags", "contents": "encode_php_tags(${1:\\$string})" },
     // Smiley Helper. Really?
     { "trigger": "get_clickable_smileys", "contents": "get_clickable_smileys(${1:'url', ''})" },
-    { "trigger": "element", "contents": "element()" },
-    { "trigger": "element", "contents": "element()" },
-    { "trigger": "element", "contents": "element()" },
-    { "trigger": "element", "contents": "element()" },
-    { "trigger": "\\$this->dbutil->list_tables", "contents": "\\$this->dbutil->list_tables()" },
-    { "trigger": "\\$this->dbforge->list_tables", "contents": "\\$this->dbforge->list_tables()" }
+    { "trigger": "smiley_js", "contents": "smiley_js()" },
+    { "trigger": "parse_smileys", "contents": "parse_smileys(${1:\\$string, url})" },
+    // String Helper
+    { "trigger": "random_string", "contents": "random_string(${1:type, length})" },
+    { "trigger": "increment_string", "contents": "increment_string(${1:'file', delimiter})" },
+    { "trigger": "alternator", "contents": "alternator(${1:'one', 'two', 'three', 'four', 'five'})" },
+    { "trigger": "repeater", "contents": "repeater(${1:\\$string, num})" },
+    { "trigger": "reduce_double_slashes", "contents": "reduce_double_slashes(${1:\\$string})" },
+    { "trigger": "trim_slashes", "contents": "trim_slashes(${1:\\$string})" },
+    { "trigger": "reduce_multiples", "contents": "reduce_multiples(${1:\\$string, char, TRUE/FALSE})" },
+    { "trigger": "quotes_to_entities", "contents": "quotes_to_entities(${1:\\$string})" },
+    { "trigger": "strip_quotes", "contents": "strip_quotes(${1:\\$string})" },
+    // Text Helper
+    { "trigger": "word_limiter", "contents": "word_limiter(${1:\\$string, num})" },
+    { "trigger": "character_limiter", "contents": "character_limiter(${1:\\$string, num})" },
+    { "trigger": "ascii_to_entities", "contents": "ascii_to_entities(${1:\\$string})" },
+    { "trigger": "entities_to_ascii", "contents": "entities_to_ascii(${1:\\$string})" },
+    { "trigger": "convert_accented_characters", "contents": "convert_accented_characters(${1:\\$string})" },
+    { "trigger": "word_censor", "contents": "word_censor(${1:\\$string, disallowed_words_array, replacement})" },
+    { "trigger": "highlight_code", "contents": "highlight_code(${1:\\$string})" },
+    { "trigger": "highlight_phrase", "contents": "highlight_phrase(${1:\\$string, 'highlighted phrase', 'opening tag', 'closing tag'})" },
+    { "trigger": "word_wrap", "contents": "word_wrap(${1:\\$string, num})" },
+    { "trigger": "ellipsize", "contents": "ellipsize(${1:\\$string, number_of_chars, start_of_ellipsis})" },
+    // Typography Helper
+    { "trigger": "auto_typography", "contents": "auto_typography(${1:\\$string})" },
+    { "trigger": "nl2br_except_pre", "contents": "nl2br_except_pre(${1:\\$string})" },
+    // URL Helper
+    { "trigger": "site_url", "contents": "site_url(${1:url_string_or_array})" },
+    { "trigger": "base_url", "contents": "base_url(${1:url_string_or_array)" },
+    { "trigger": "current_url", "contents": "current_url()" },
+    { "trigger": "uri_string", "contents": "uri_string()" },
+    { "trigger": "index_page", "contents": "index_page()" },
+    { "trigger": "anchor", "contents": "anchor(${1:uri_segments, text, attributes})" },
+    { "trigger": "anchor_popup", "contents": "anchor_popup(${1:uri_segments, text, attributes})" },
+    { "trigger": "mailto", "contents": "mailto(${1:'email', 'text'})" },
+    { "trigger": "safe_mailto", "contents": "safe_mailto(${1:'email', 'text'})" },
+    { "trigger": "auto_link", "contents": "auto_link(${1:\\$string, 'url or email', TRUE/FALSE})" },
+    { "trigger": "url_title", "contents": "url_title(${1:\\$string, 'delimiter', TRUE/FALSE})" },
+    { "trigger": "prep_url", "contents": "prep_url(${1:\\$url})" },
+    { "trigger": "redirect", "contents": "redirect(${1:'url', 'location_or_refresh', response_code})" },
+    // XML Helper
+    { "trigger": "xml_convert", "contents": "xml_convert(${1:\\$string})" }
 
   ]
 }
