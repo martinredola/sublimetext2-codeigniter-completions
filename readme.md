@@ -1,7 +1,7 @@
 Sublime Text 2 Completions for CodeIgniter
 ==========================================
 
-Ever get sick of typing things like `$this->load->view` or `$this->security->sanitize_filename` when building your CI sites and apps? Well I've gathered together all the functions from the [Codeigniter User Guide] Class Reference so you no longer have to.
+Ever get sick of typing things like `$this->load->view` or `$this->security->sanitize_filename` when building your CI sites and apps? Well I've gathered together all the functions from the [CodeIgniter User Guide] Class Reference so you no longer have to.
 
 Installation
 ------------
@@ -19,25 +19,12 @@ You're going to need to drop it into wherever your Sublime Text config folder is
 Usage
 -----
 
-There are two ways to use the completions:
-
-**The shorthand way**
-
-Type the initial letters in the function you want and press tab - e.g. type `tip` for `$this->input->post`.
-
-* Type `tlv` + tab for `$this->load->view(view, $data, true/false)`.
-* Type `txi` + tab for `$this->xmlrpc->initialize($config)`
-
-etc.
-
-**The longhand way**
-
-Just start typing part of the function to get the completion. If you type `waterm` you should see `$this->image_lib->watermark` pop up. If you type `load` you'll see `$this->load->model` and `$this->load->view`, and so on.
+Just start typing and up will pop the CodeIgniter functions in question.
 
 What's missing
 --------------
 
-I've left out the helper functions for now but will add them later.
+I've included every CodeIgniter function I could find, but if I've missed anything out, I'd appreciate it if you let me know.
 
-[Codeigniter User Guide]: http://codeigniter.com/user_guide
+[CodeIgniter User Guide]: http://codeigniter.com/user_guide
 [Sublime Text 2]: http://www.sublimetext.com/2
