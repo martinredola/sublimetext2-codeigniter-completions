@@ -6,7 +6,7 @@
     "php",
     // Benchmarking class
     { "trigger": "\\$this->benchmark->mark", "contents": "\\$this->benchmark->mark(${1:marker_name})" },
-    { "trigger": "\\$this->benchmark_elapsed_time", "contents": "\\$this->benchmark_elapsed_time(${1:code_start}, ${2:code_end})" },
+    { "trigger": "\\$this->benchmark->elapsed_time", "contents": "\\$this->benchmark_elapsed_time(${1:code_start}, ${2:code_end})" },
     { "trigger": "\\$this->benchmark->memory_usage", "contents": "\\$this->benchmark->memory_usage()" },
     // Calendar class
     { "trigger": "\\$this->calendar->generate", "contents": "\\$this->calendar->generate(${1:arguments})" },

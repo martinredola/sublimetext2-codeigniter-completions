@@ -14,7 +14,7 @@ Download the PHP-Codeigniter.sublime_completions file up above, and drop it in y
 
 **Windows & Mac**
 
-You're going to need to drop it into wherever your Sublime Text config folder is. I haven't used either OS for a couple of months, but seeing as you're clever enough to understand Git and code in PHP, I don't think you'll have too much trouble,
+You're going to need to drop it into wherever your Sublime Text *Packages/PHP* folder is. I haven't used either OS for a couple of months, but seeing as you're clever enough to understand Git and code in PHP, I don't think you'll have too much trouble,
 
 Usage
 -----
