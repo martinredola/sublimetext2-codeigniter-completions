@@ -303,7 +303,7 @@
     { "trigger": "\\$this->db->set", "contents": "\\$this->db->set(${1:'field', 'field2', FALSE})" },
     { "trigger": "\\$this->db->uodate", "contents": "\\$this->db->uodate(${1:table, \\$data})" },
     { "trigger": "\\$this->db->update_batch", "contents": "\\$this->db->update_batch(${1:table_name, array, where_key})" },
-    { "trigger": "\\$this->db->delete", "contents": "\\$this->db->delete(${1:table_name, where_clause)" },
+    { "trigger": "\\$this->db->delete", "contents": "\\$this->db->delete(${1:table_name, where_clause})" },
     { "trigger": "\\$this->db->empty_table", "contents": "\\$this->db->empty_table(${1:table_name})" },
     { "trigger": "\\$this->db->truncate", "contents": "\\$this->db->truncate(${1:blank or table_name})" },
     { "trigger": "\\$this->db->start_cache", "contents": "\\$this->db->start_cache()" },
