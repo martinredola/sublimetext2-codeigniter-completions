@@ -10,11 +10,11 @@ I'm guessing you've already got a copy of [Sublime Text 2].
 
 **Linux**
 
-Download the PHP-Codeigniter.sublime_completions file up above, and drop it in your *~/.config/sublime-text-2/Packages/PHP/* folder. Should work immediately.
+Download the *PHP-codeigniter.sublime-completions* file up above, and drop it in your *~/.config/sublime-text-2/Packages/PHP/* folder. Should work immediately.
 
 **Windows & Mac**
 
-You're going to need to drop it into wherever your Sublime Text *Packages/PHP* folder is. I haven't used either OS for a couple of months, but seeing as you're clever enough to understand Git and code in PHP, I don't think you'll have too much trouble,
+Download the *PHP-codeigniter.sublime-completions* file up above, and drop it to *%appdata%\Sublime Text 2\Packages\PHP\* folder. Should work immediately
 
 Usage
 -----
