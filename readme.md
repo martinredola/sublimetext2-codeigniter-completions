@@ -23,11 +23,14 @@ Just start typing and up will pop the CodeIgniter functions in question.
 
 By default Sublime Text only triggers on characters, so if you’re trying to auto-complete by typing “$this” it isn’t going to work. Instead, try typing “this” and you should see the list pop up.
 
-OR - to make $this work, add the $ character as a trigger in your Sublime Text preferences / settings :
+Tips
+----
 
-"auto_complete_triggers": [ {"selector": "text.html", "characters": "<$"} ],
+To make `$this` work, add the `$` character as a trigger in your Sublime Text preferences / settings:
 
-The '<' is there by default for HTML purposes, and the '$' is added for PHP.
+`"auto_complete_triggers": [ {"selector": "text.html", "characters": "<$"} ],`
+
+The `<` is there by default for HTML purposes, and the `$` is added for PHP.
 
 
 What's missing
