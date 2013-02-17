@@ -301,7 +301,7 @@
     { "trigger": "\\$this->db->insert", "contents": "\\$this->db->insert(${1:'mytable', \\$data})" },
     { "trigger": "\\$this->db->insert_batch", "contents": "\\$this->db->insert_batch(${1:table, array or object})" },
     { "trigger": "\\$this->db->set", "contents": "\\$this->db->set(${1:'field', 'field2', FALSE})" },
-    { "trigger": "\\$this->db->uodate", "contents": "\\$this->db->uodate(${1:table, \\$data})" },
+    { "trigger": "\\$this->db->update", "contents": "\\$this->db->update(${1:table, \\$data})" },
     { "trigger": "\\$this->db->update_batch", "contents": "\\$this->db->update_batch(${1:table_name, array, where_key})" },
     { "trigger": "\\$this->db->delete", "contents": "\\$this->db->delete(${1:table_name, where_clause})" },
     { "trigger": "\\$this->db->empty_table", "contents": "\\$this->db->empty_table(${1:table_name})" },
