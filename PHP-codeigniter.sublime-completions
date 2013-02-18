@@ -144,6 +144,7 @@
     { "trigger": "\\$this->security->xss_clean", "contents": "\\$this->security->xss_clean(${1:\\$data (or \\$file, TRUE)})" },
     { "trigger": "\\$this->security->sanitize_filename", "contents": "\\$this->security->sanitize_filename(${1:file_name})" },
     // Session Class
+    { "trigger": "\\$this->session->userdata", "contents": "\\$this->session->userdata(${1:'item'})" },
     { "trigger": "\\$this->session->xss_clean", "contents": "\\$this->session->xss_clean(${1:'array_index'})" },
     { "trigger": "\\$this->session->set_userdata", "contents": "\\$this->session->set_userdata(${1:\\$array})" },
     { "trigger": "\\$this->session->all_userdata", "contents": "\\$this->session->all_userdata()" },
