@@ -146,7 +146,7 @@
     // Session Class
     { "trigger": "\\$this->session->userdata", "contents": "\\$this->session->userdata(${1:'item'})" },
     { "trigger": "\\$this->session->xss_clean", "contents": "\\$this->session->xss_clean(${1:'array_index'})" },
-    { "trigger": "\\$this->session->set_userdata", "contents": "\\$this->session->set_userdata(${1:\\$array})" },
+    { "trigger": "\\$this->session->set_userdata", "contents": "\\$this->session->set_userdata(${1:\\'name', 'value' or \\$array })" },
     { "trigger": "\\$this->session->all_userdata", "contents": "\\$this->session->all_userdata()" },
     { "trigger": "\\$this->session->unset_userdata", "contents": "\\$this->session->unset_userdata(${1:'some_name' or $array_items})" },
     { "trigger": "\\$this->session->set_flashdata", "contents": "\\$this->session->set_flashdata(${1:'item', 'value'})" },
