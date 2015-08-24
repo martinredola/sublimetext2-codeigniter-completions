@@ -474,7 +474,7 @@
     { "trigger": "nl2br_except_pre", "contents": "nl2br_except_pre(${1:\\$string})" },
     // URL Helper
     { "trigger": "site_url", "contents": "site_url(${1:url_string_or_array})" },
-    { "trigger": "base_url", "contents": "base_url(${1:url_string_or_array)" },
+    { "trigger": "base_url", "contents": "base_url(${1:url_string_or_array})" },
     { "trigger": "current_url", "contents": "current_url()" },
     { "trigger": "uri_string", "contents": "uri_string()" },
     { "trigger": "index_page", "contents": "index_page()" },
